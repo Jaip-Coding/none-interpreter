@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Code Editor</title>
+</head>
+<body>
+    <div class="code-editor">
+        <div class="Head">
+            <h1>NONE Online Compiler</h1>
+            <br>
+            <p id="Loading">Loading...</p>
+            <button type="button" onclick="run()">Run</button>
+        </div>
+        <pre id="codeInput" contenteditable="true" spellcheck="false">+x----^pc+vp+v++++pp++++++p_+v++++++^p-v------p++++++p-v--pc+v--ps(++++)</pre>
+    </div>
+    <div class="output">
+        <pre id="codeOutput"></pre>
+    </div>
+    
+    
+    <div class="Links">
+        <button type="button" onclick="darkMode()" id="ModeToggle">Dark mode</button>
+        <button type="button" onclick="window.location.href='https://jaip-coding.github.io/none/';">About NONE</button>
+        <button type="button" onclick="window.location.href='https://jaip-coding.github.io/none-generator/';">NONE Generator</button>
+    </div>
+
+    <br>
+
+    <center><footer>© 2023 Jaip Coding</footer></center>
+    <script src="script.js"></script>
+</body>
+</html>
